@@ -37,7 +37,8 @@ const client = new Client({
     },
     puppeteer: {
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        executablePath: process.env.CHROME_PATH || undefined, // Opcional, ajuda a encontrar o binário
     }
 });
 
