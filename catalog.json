@@ -1,0 +1,250 @@
+[
+  { "type": "cover" },
+  { "type": "intro" },
+  {
+    "type": "grid",
+    "title": "CLIMATIZAÇÃO",
+    "sub": "HI-WALL INVERTER",
+    "grid": "3",
+    "items": [
+      { "n": "AI EcoMaster 9.000 BTUs", "d": "IA Integrada. Wi-Fi. Econômico.", "techSpecs": ["Capacidade: 9.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "AI EcoMaster 12.000 BTUs", "d": "Silencioso. Modo Noite.", "techSpecs": ["Capacidade: 12.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "AI EcoMaster 18.000 BTUs", "d": "Turbo resfriamento.", "techSpecs": ["Capacidade: 18.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "AI EcoMaster 24.000 BTUs", "d": "Alta potência residencial.", "techSpecs": ["Capacidade: 24.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "AirVolution 12.000 BTUs", "d": "Filtro Íons Prata.", "techSpecs": ["Capacidade: 12.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Xtreme Save 9.000 BTUs", "d": "Connect. Voz.", "techSpecs": ["Capacidade: 9.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Black Edition 12.000 BTUs", "d": "Preto Espelhado.", "techSpecs": ["Capacidade: 12.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Black Edition 18.000 BTUs", "d": "Acabamento Premium.", "techSpecs": ["Capacidade: 18.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "CLIMATIZAÇÃO",
+    "sub": "SPLIT & MULTI",
+    "grid": "3",
+    "items": [
+      { "n": "AirVolution 18.000 BTUs", "d": "Econômico.", "techSpecs": ["Capacidade: 18.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "AirVolution 24.000 BTUs", "d": "Gás R-32.", "techSpecs": ["Capacidade: 24.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "AirVolution 30.000 BTUs", "d": "Máxima força.", "techSpecs": ["Capacidade: 30.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Bi-Split 18.000 BTUs", "d": "Até 2 unidades.", "techSpecs": ["Capacidade: 18.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Tri-Split 27.000 BTUs", "d": "Até 3 unidades.", "techSpecs": ["Capacidade: 27.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Quadri-Split 36.000 BTUs", "d": "Até 4 unidades.", "techSpecs": ["Capacidade: 36.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Penta-Split 42.000 BTUs", "d": "Até 5 unidades.", "techSpecs": ["Capacidade: 42.000 BTUs", "Voltagem: 220V", "Inverter: Sim"] },
+      { "n": "Cassette 1 Via", "d": "Evaporadora Multi.", "techSpecs": ["Tipo: Cassette", "Vias: 1", "Uso: Multi-Split"] },
+      { "n": "Duto Built-in", "d": "Invisível.", "techSpecs": ["Tipo: Duto", "Instalação: Embutida", "Uso: Multi-Split"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "COMPACTOS",
+    "sub": "JANELA & PORTÁTEIS",
+    "grid": "3",
+    "items": [
+      { "n": "Janela Elet. 7.500 BTUs", "d": "Controle remoto.", "techSpecs": ["Capacidade: 7.500 BTUs", "Tipo: Janela", "Controle: Eletrônico"] },
+      { "n": "Janela Elet. 10.000 BTUs", "d": "Fluido R-32.", "techSpecs": ["Capacidade: 10.000 BTUs", "Tipo: Janela", "Controle: Eletrônico"] },
+      { "n": "Janela Mec. 18.000 BTUs", "d": "Alta capacidade.", "techSpecs": ["Capacidade: 18.000 BTUs", "Tipo: Janela", "Controle: Mecânico"] },
+      { "n": "Janela Elet. 27.000 BTUs", "d": "Potente.", "techSpecs": ["Capacidade: 27.000 BTUs", "Tipo: Janela", "Controle: Eletrônico"] },
+      { "n": "Portátil 12.000 BTUs", "d": "127v/220v.", "techSpecs": ["Capacidade: 12.000 BTUs", "Tipo: Portátil", "Voltagem: 127V/220V"] },
+      { "n": "Portátil Smart", "d": "Wi-Fi.", "techSpecs": ["Capacidade: 12.000 BTUs", "Tipo: Portátil", "Conectividade: Wi-Fi"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "COMERCIAL",
+    "sub": "CARRIER XPERIENCE",
+    "grid": "3",
+    "items": [
+      { "n": "Piso Teto 36.000 BTUs", "d": "Flecha 15m.", "techSpecs": ["Capacidade: 36.000 BTUs", "Tipo: Piso Teto", "Inverter: Sim"] },
+      { "n": "Piso Teto 48.000 BTUs", "d": "Alta performance.", "techSpecs": ["Capacidade: 48.000 BTUs", "Tipo: Piso Teto", "Inverter: Sim"] },
+      { "n": "Piso Teto 57.000 BTUs", "d": "Máxima potência.", "techSpecs": ["Capacidade: 57.000 BTUs", "Tipo: Piso Teto", "Inverter: Sim"] },
+      { "n": "Cassette 4V 18.000 BTUs", "d": "360 graus.", "techSpecs": ["Capacidade: 18.000 BTUs", "Tipo: Cassette 4 Vias", "Inverter: Sim"] },
+      { "n": "Cassette 4V 24.000 BTUs", "d": "Bomba dreno.", "techSpecs": ["Capacidade: 24.000 BTUs", "Tipo: Cassette 4 Vias", "Inverter: Sim"] },
+      { "n": "Cassette 4V 36.000 BTUs", "d": "Escritórios.", "techSpecs": ["Capacidade: 36.000 BTUs", "Tipo: Cassette 4 Vias", "Inverter: Sim"] },
+      { "n": "Cassette 4V 48.000 BTUs", "d": "Silencioso.", "techSpecs": ["Capacidade: 48.000 BTUs", "Tipo: Cassette 4 Vias", "Inverter: Sim"] },
+      { "n": "Duto 36.000 BTUs", "d": "Alta pressão.", "techSpecs": ["Capacidade: 36.000 BTUs", "Tipo: Duto", "Inverter: Sim"] },
+      { "n": "Cortina Ar 120", "d": "Isolamento.", "techSpecs": ["Tamanho: 120cm", "Tipo: Cortina de Ar", "Uso: Comercial"] }
+    ]
+  },
+  { "type": "tech" },
+  {
+    "type": "grid",
+    "title": "REFRIGERAÇÃO",
+    "sub": "GELADEIRAS PREMIUM",
+    "grid": "3",
+    "items": [
+      { "n": "Side by Side 528L", "d": "Água na porta.", "techSpecs": ["Capacidade: 528 Litros", "Tipo: Side by Side", "Dispenser de água: Sim"] },
+      { "n": "French Door 482L", "d": "4 Portas.", "techSpecs": ["Capacidade: 482 Litros", "Tipo: French Door", "Portas: 4"] },
+      { "n": "Inverse 425L Black", "d": "Vidro preto.", "techSpecs": ["Capacidade: 425 Litros", "Tipo: Inverse", "Cor: Black"] },
+      { "n": "Inverse 425L Inox", "d": "Painel Touch.", "techSpecs": ["Capacidade: 425 Litros", "Tipo: Inverse", "Cor: Inox"] },
+      { "n": "Frost Free 347L", "d": "Branca. Smart.", "techSpecs": ["Capacidade: 347 Litros", "Tipo: Frost Free", "Cor: Branca"] },
+      { "n": "Frost Free 347L Inox", "d": "Design moderno.", "techSpecs": ["Capacidade: 347 Litros", "Tipo: Frost Free", "Cor: Inox"] },
+      { "n": "Duplex 294L", "d": "Cycle Defrost.", "techSpecs": ["Capacidade: 294 Litros", "Tipo: Duplex", "Degelo: Cycle Defrost"] },
+      { "n": "Side by Side 442L", "d": "Compacto.", "techSpecs": ["Capacidade: 442 Litros", "Tipo: Side by Side", "Largura: Reduzida"] },
+      { "n": "French Door 528L", "d": "Espaço máximo.", "techSpecs": ["Capacidade: 528 Litros", "Tipo: French Door", "Portas: 3"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "REFRIGERAÇÃO",
+    "sub": "FREEZERS",
+    "grid": "3",
+    "items": [
+      { "n": "Horiz. 508L", "d": "2 Tampas.", "techSpecs": ["Capacidade: 508 Litros", "Tipo: Horizontal", "Tampas: 2"] },
+      { "n": "Horiz. 415L", "d": "Médio.", "techSpecs": ["Capacidade: 415 Litros", "Tipo: Horizontal", "Tampas: 1"] },
+      { "n": "Horiz. 293L", "d": "Inverter.", "techSpecs": ["Capacidade: 293 Litros", "Tipo: Horizontal", "Inverter: Sim"] },
+      { "n": "Horiz. 200L", "d": "Compacto.", "techSpecs": ["Capacidade: 200 Litros", "Tipo: Horizontal", "Tampas: 1"] },
+      { "n": "Horiz. 150L", "d": "Lazer.", "techSpecs": ["Capacidade: 150 Litros", "Tipo: Horizontal", "Tampas: 1"] },
+      { "n": "Horiz. 100L", "d": "Pequeno.", "techSpecs": ["Capacidade: 100 Litros", "Tipo: Horizontal", "Tampas: 1"] },
+      { "n": "Vertical Frost", "d": "Gavetas.", "techSpecs": ["Capacidade: 150 Litros (aprox.)", "Tipo: Vertical", "Degelo: Frost Free"] },
+      { "n": "Freezer 3em1", "d": "362 Litros.", "techSpecs": ["Capacidade: 362 Litros", "Funções: 3 em 1", "Tipo: Horizontal"] },
+      { "n": "Vertical 240L", "d": "Grande.", "techSpecs": ["Capacidade: 240 Litros", "Tipo: Vertical", "Degelo: Manual"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "GOURMET",
+    "sub": "ADEGAS E FRIGOBARES",
+    "grid": "3",
+    "items": [
+      { "n": "Cervejeira 96L", "d": "Porta vidro.", "techSpecs": ["Capacidade: 96 Litros", "Tipo: Cervejeira", "Porta: Vidro Duplo"] },
+      { "n": "Cervejeira 82L", "d": "Preta.", "techSpecs": ["Capacidade: 82 Litros", "Tipo: Cervejeira", "Cor: Preta"] },
+      { "n": "Adega 24 G", "d": "Vidro UV.", "techSpecs": ["Capacidade: 24 Garrafas", "Tipo: Adega", "Porta: Vidro com proteção UV"] },
+      { "n": "Adega 12 G", "d": "Touch.", "techSpecs": ["Capacidade: 12 Garrafas", "Tipo: Adega", "Painel: Touch"] },
+      { "n": "Frigobar 124L", "d": "Porta latas.", "techSpecs": ["Capacidade: 124 Litros", "Tipo: Frigobar", "Porta: Reversível"] },
+      { "n": "Frigobar 93L", "d": "Gaveta frutas.", "techSpecs": ["Capacidade: 93 Litros", "Tipo: Frigobar", "Gaveta: Sim"] },
+      { "n": "Frigobar 45L", "d": "Quartos.", "techSpecs": ["Capacidade: 45 Litros", "Tipo: Frigobar", "Silencioso: Sim"] },
+      { "n": "Retrô Vermelho", "d": "Vintage.", "techSpecs": ["Capacidade: 76 Litros (aprox.)", "Estilo: Retrô", "Cor: Vermelho"] },
+      { "n": "Retrô Preto", "d": "Elegante.", "techSpecs": ["Capacidade: 76 Litros (aprox.)", "Estilo: Retrô", "Cor: Preto"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "LAVANDERIA",
+    "sub": "LAVA E SECA",
+    "grid": "3",
+    "items": [
+      { "n": "L&S 11kg Branca", "d": "Conectada.", "techSpecs": ["Capacidade: 11kg", "Função: Lava e Seca", "Cor: Branca"] },
+      { "n": "L&S 11kg Titan.", "d": "Metálico.", "techSpecs": ["Capacidade: 11kg", "Função: Lava e Seca", "Cor: Titânio"] },
+      { "n": "L&S 11kg Preta", "d": "Display LED.", "techSpecs": ["Capacidade: 11kg", "Função: Lava e Seca", "Cor: Preta"] },
+      { "n": "L&S 12.5kg", "d": "Capacidade.", "techSpecs": ["Capacidade: 12.5kg", "Função: Lava e Seca", "Cor: Branca"] },
+      { "n": "Lavadora 13kg", "d": "Storm Wash.", "techSpecs": ["Capacidade: 13kg", "Função: Apenas Lava", "Cor: Branca"] },
+      { "n": "Top Load 12kg", "d": "Abertura sup.", "techSpecs": ["Capacidade: 12kg", "Tipo: Top Load", "Cor: Branca"] },
+      { "n": "Top Load 16kg", "d": "Filtro fiapos.", "techSpecs": ["Capacidade: 16kg", "Tipo: Top Load", "Cor: Branca"] },
+      { "n": "Secadora 11kg", "d": "Rápida.", "techSpecs": ["Capacidade: 11kg", "Função: Apenas Seca", "Cor: Branca"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "COZINHA",
+    "sub": "LAVA LOUÇAS",
+    "grid": "3",
+    "items": [
+      { "n": "Lava Louças 8S Branca", "d": "Branca.", "techSpecs": ["Serviços: 8", "Cor: Branca", "Painel: Digital"] },
+      { "n": "Lava Louças 8S Cinza", "d": "Cinza.", "techSpecs": ["Serviços: 8", "Cor: Cinza", "Painel: Digital"] },
+      { "n": "Lava Louças 8S Preta", "d": "Preta.", "techSpecs": ["Serviços: 8", "Cor: Preta", "Painel: Digital"] },
+      { "n": "Lava Louças 14S Branca", "d": "Branca.", "techSpecs": ["Serviços: 14", "Cor: Branca", "Painel: Digital"] },
+      { "n": "Lava Louças 14S Inox", "d": "Inox.", "techSpecs": ["Serviços: 14", "Cor: Inox", "Painel: Digital"] },
+      { "n": "Lava Louças 14S Preta", "d": "Preta.", "techSpecs": ["Serviços: 14", "Cor: Preta", "Painel: Digital"] },
+      { "n": "Lava Louças 8S Inox", "d": "Inox.", "techSpecs": ["Serviços: 8", "Cor: Inox", "Painel: Digital"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "COZINHA",
+    "sub": "COOKTOPS",
+    "grid": "3",
+    "items": [
+      { "n": "Indução 4B", "d": "Freezone.", "techSpecs": ["Bocas: 4", "Tipo: Indução", "Zona Flex: Sim"] },
+      { "n": "Indução 2B", "d": "Compacto.", "techSpecs": ["Bocas: 2", "Tipo: Indução", " "] },
+      { "n": "Indução 1B", "d": "Portátil.", "techSpecs": ["Bocas: 1", "Tipo: Indução", "Portátil: Sim"] },
+      { "n": "Indução CYB40", "d": "Slider.", "techSpecs": ["Bocas: 4", "Tipo: Indução", "Controle: Slider"] },
+      { "n": "Gás 5B Inox", "d": "Ferro fundido.", "techSpecs": ["Bocas: 5", "Tipo: Gás", "Material: Inox"] },
+      { "n": "Gás 5B Vidro", "d": "Mesa vidro.", "techSpecs": ["Bocas: 5", "Tipo: Gás", "Material: Vidro Temperado"] },
+      { "n": "Gás 4B Inox", "d": "Automático.", "techSpecs": ["Bocas: 4", "Tipo: Gás", "Material: Inox"] },
+      { "n": "Gás 4B Vidro", "d": "Clean.", "techSpecs": ["Bocas: 4", "Tipo: Gás", "Material: Vidro Temperado"] },
+      { "n": "Vitrocerâmico 4B", "d": "Elétrico.", "techSpecs": ["Bocas: 4", "Tipo: Vitrocerâmico", "Elétrico: Sim"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "COZINHA",
+    "sub": "FORNOS",
+    "grid": "3",
+    "items": [
+      { "n": "Forno 80L Conv.", "d": "AirFryer.", "techSpecs": ["Capacidade: 80 Litros", "Tipo: Elétrico de Embutir", "Função AirFryer: Sim"] },
+      { "n": "Forno 80L Dig.", "d": "Touch.", "techSpecs": ["Capacidade: 80 Litros", "Tipo: Elétrico de Embutir", "Painel: Touch"] },
+      { "n": "Forno 70L Mec.", "d": "Inox.", "techSpecs": ["Capacidade: 70 Litros", "Tipo: Elétrico de Embutir", "Acabamento: Inox"] },
+      { "n": "Micro 35L Emb.", "d": "Grill.", "techSpecs": ["Capacidade: 35 Litros", "Tipo: Micro-ondas de Embutir", "Função Grill: Sim"] },
+      { "n": "Micro 25L Emb. Inox", "d": "Inox.", "techSpecs": ["Capacidade: 25 Litros", "Tipo: Micro-ondas de Embutir", "Acabamento: Inox"] },
+      { "n": "Micro 35L Esp.", "d": "Bancada.", "techSpecs": ["Capacidade: 35 Litros", "Tipo: Micro-ondas de Bancada", "Acabamento: Espelhado"] },
+      { "n": "Micro 35L Bra.", "d": "Limpa Fácil.", "techSpecs": ["Capacidade: 35 Litros", "Tipo: Micro-ondas de Bancada", "Cor: Branco"] },
+      { "n": "Micro 27L Pre.", "d": "Smart.", "techSpecs": ["Capacidade: 27 Litros", "Tipo: Micro-ondas de Bancada", "Cor: Preto"] },
+      { "n": "Micro 20L", "d": "Básico.", "techSpecs": ["Capacidade: 20 Litros", "Tipo: Micro-ondas de Bancada", "Cor: Branco"] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "ELETRO",
+    "sub": "AIR FRYERS",
+    "grid": "4",
+    "items": [
+      { "n": "Fryer 4L Bra.", "d": "4L. Quadrada.", "techSpecs": ["Capacidade: 4 Litros", "Potência: 1500W", "Temp: 80-200°C", "Timer: 60 min"] },
+      { "n": "Fryer 4L Pre.", "d": "Prática.", "techSpecs": ["Capacidade: 4 Litros", "Potência: 1500W", "Temp: 80-200°C", "Timer: 60 min"] },
+      { "n": "Fryer 5.5L", "d": "Inox.", "techSpecs": ["Capacidade: 5.5 Litros", "Acabamento: Inox", " "] },
+      { "n": "Fryer 6L", "d": "Visor.", "techSpecs": ["Capacidade: 6 Litros", "Visor: Sim", " "] },
+      { "n": "Fryer 8.5L", "d": "Dual.", "techSpecs": ["Capacidade: 8.5 Litros", "Cesto: Duplo", " "] },
+      { "n": "Oven 12L", "d": "3 Níveis.", "techSpecs": ["Capacidade: 12 Litros", "Tipo: Forno", "Níveis de Grelha: 3"] },
+      { "n": "Digital 4L", "d": "LED.", "techSpecs": ["Capacidade: 4 Litros", "Painel: Digital", " "] },
+      { "n": "Fryer 3.5L", "d": "Econômica.", "techSpecs": ["Capacidade: 3.5 Litros", "Potência: Reduzida", " "] },
+      { "n": "Fryer Inox", "d": "Premium.", "techSpecs": ["Capacidade: 5 Litros (aprox.)", "Acabamento: Inox", " "] },
+      { "n": "Fryer Smart", "d": "Wi-Fi.", "techSpecs": ["Capacidade: 6 Litros (aprox.)", "Conectividade: Wi-Fi", " "] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "ELETRO",
+    "sub": "PREPARO",
+    "grid": "4",
+    "items": [
+      { "n": "Pressão 6L Mec.", "d": "Timer.", "techSpecs": ["Capacidade: 6 Litros", "Tipo: Panela de Pressão Elétrica", "Timer: Sim"] },
+      { "n": "Arroz 5 Xíc.", "d": "Vapor.", "techSpecs": ["Capacidade: 5 Xícaras", "Tipo: Panela de Arroz", "Função Vapor: Sim"] },
+      { "n": "Arroz 10 Xíc.", "d": "Grande.", "techSpecs": ["Capacidade: 10 Xícaras", "Tipo: Panela de Arroz", " "] },
+      { "n": "Chaleira Inox", "d": "1.7L.", "techSpecs": ["Capacidade: 1.7 Litros", "Material: Inox", " "] },
+      { "n": "Chaleira Vidro", "d": "LED azul.", "techSpecs": ["Capacidade: 1.7 Litros (aprox.)", "Material: Vidro", "LED: Azul"] },
+      { "n": "Chaleira Bar.", "d": "Bico fino.", "techSpecs": ["Capacidade: 1 Litro (aprox.)", "Uso: Barista", "Bico: Fino"] },
+      { "n": "Cafeteira 30", "d": "Térmica.", "techSpecs": ["Capacidade: 30 Xícaras", "Jarra: Térmica", " "] },
+      { "n": "Cafeteira Prog.", "d": "Timer.", "techSpecs": ["Capacidade: 1.5 Litros (aprox.)", "Função: Programável", " "] },
+      { "n": "Liquidif.", "d": "Potente.", "techSpecs": ["Potência: Alta", "Copo: Vidro ou Plástico", " "] },
+      { "n": "Batedeira", "d": "Planetária.", "techSpecs": ["Tipo: Planetária", "Tigela: Inox", " "] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "LIMPEZA",
+    "sub": "ASPIRADORES",
+    "grid": "3",
+    "items": [
+      { "n": "Robô VCR", "d": "Controle.", "techSpecs": ["Tipo: Robô Aspirador", "Controle Remoto: Sim", " "] },
+      { "n": "Vertical Power", "d": "Fio 5m.", "techSpecs": ["Tipo: Vertical", "Com Fio: Sim", " "] },
+      { "n": "Aspirador Ágil", "d": "Sem Fio.", "techSpecs": ["Tipo: Vertical", "Sem Fio: Sim", " "] },
+      { "n": "StormClean", "d": "Água e Pó.", "techSpecs": ["Tipo: Aspirador de Água e Pó", " "] },
+      { "n": "Robô i5C Preto", "d": "Tanque eletro.", "techSpecs": ["Tipo: Robô Aspirador", "Cor: Preto", "Tanque: Eletrônico"] },
+      { "n": "Ciclônico", "d": "Sem saco.", "techSpecs": ["Tecnologia: Ciclônica", "Saco coletor: Não", " "] },
+      { "n": "Filtros HEPA", "d": "Reposição.", "techSpecs": ["Tipo: Acessório", "Compatibilidade: Diversos", " "] }
+    ]
+  },
+  {
+    "type": "grid",
+    "title": "CONFORTO",
+    "sub": "VENTILAÇÃO",
+    "grid": "3",
+    "bottomImage": "assets/capaml.png",
+    "items": [
+      { "n": "Ventilador 30cm", "d": "Mesa.", "techSpecs": ["Diâmetro: 30cm", "Tipo: de Mesa", " "] },
+      { "n": "Ventilador Torre", "d": "Timer.", "techSpecs": ["Tipo: Torre", "Timer: Sim", " "] },
+      { "n": "Umidificador Master Connect 6L Midea Bivolt", "d": "Connect. 6 Litros. Bivolt.", "techSpecs": ["Capacidade: 6 Litros", "Conectividade: Wi-Fi", "Bivolt"] }
+    ]
+  },
+  { "type": "parts_sales" },
+  { "type": "contact" }
+]
