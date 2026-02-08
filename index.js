@@ -6,25 +6,42 @@ const path = require('path');
 // --- VERIFICAÇÃO DE INSTÂNCIA ÚNICA (SINGLETON) ---
 // Isso previne que o bot seja executado múltiplas vezes, o que causa respostas duplicadas.
 const lockFilePath = path.join(__dirname, 'bot.lock');
-
-function isProcessRunning(pid) {
+ 
+const isProcessRunning = (pid) => {
     try {
         // Enviar o sinal 0 para um processo verifica se ele existe sem interrompê-lo.
+        // Isso funciona em ambientes POSIX (Linux, macOS) e também no Windows.
         return process.kill(pid, 0);
     } catch (e) {
-        return false; // O processo não existe.
+        // Se o erro for 'ESRCH', o processo não existe. Qualquer outro erro pode ser permissão, etc.
+        // Em ambos os casos, consideramos que o processo não está "rodando de forma acessível".
+        return false;
     }
-}
+};
 
-if (fs.existsSync(lockFilePath)) {
-    const pid = fs.readFileSync(lockFilePath, 'utf-8');
-    if (isProcessRunning(parseInt(pid, 10))) {
-        console.error(`❌ ERRO: O bot já está em execução com o PID: ${pid}. Múltiplas instâncias causam respostas repetidas.`);
-        console.error('👉 SOLUÇÃO: Feche o processo "node.exe" correspondente no Gerenciador de Tarefas antes de iniciar um novo.');
-        process.exit(1); // Impede a inicialização de uma nova instância.
+try {
+    // Tenta criar e escrever no arquivo de lock de forma atômica.
+    // A flag 'wx' falhará se o arquivo já existir, evitando race conditions.
+    fs.writeFileSync(lockFilePath, process.pid.toString(), { flag: 'wx' });
+} catch (e) {
+    if (e.code === 'EEXIST') {
+        // O arquivo já existe. Verificamos se o processo dono do lock ainda está ativo.
+        const pid = fs.readFileSync(lockFilePath, 'utf-8');
+        if (isProcessRunning(parseInt(pid, 10))) {
+            console.error(`❌ ERRO: O bot já está em execução com o PID: ${pid}. Múltiplas instâncias não são permitidas.`);
+            console.error('👉 SOLUÇÃO: Se o processo anterior travou, delete o arquivo "bot.lock" e reinicie.');
+            process.exit(1);
+        } else {
+            // O processo antigo não está mais rodando. O bot pode assumir o controle.
+            console.warn(`⚠️ AVISO: Arquivo de lock de um processo antigo (PID: ${pid}) encontrado. Assumindo o controle.`);
+            fs.writeFileSync(lockFilePath, process.pid.toString()); // Sobrescreve com o novo PID.
+        }
+    } else {
+        // Outro erro inesperado (ex: permissão de escrita).
+        console.error('❌ Erro inesperado ao criar o arquivo de lock:', e);
+        process.exit(1);
     }
 }
-fs.writeFileSync(lockFilePath, process.pid.toString());
 
 // NOTA: A dependência 'puppeteer' não precisa ser importada diretamente
 // whatsapp-web.js a utiliza nos bastidores.
@@ -454,15 +471,11 @@ process.on('unhandledRejection', (reason, promise) => {
     console.error('⚠️ Promessa Rejeitada (unhandledRejection):', reason);
 });
 
-process.on('SIGINT', async () => {
-    console.log('\n🔴 Recebido sinal de encerramento (SIGINT). Finalizando graciosamente...');
+const gracefulShutdown = async (signal) => {
+    console.log(`\n🔴 Recebido sinal de encerramento (${signal}). Finalizando graciosamente...`);
     try {
         await client.destroy();
         console.log('Cliente do WhatsApp desconectado.');
-        if (fs.existsSync(lockFilePath)) {
-            fs.unlinkSync(lockFilePath); // Remove o arquivo de lock
-            console.log('Arquivo de lock removido.');
-        }
     } catch (e) {
         console.error('Erro ao destruir o cliente:', e);
     } finally {
@@ -472,8 +485,19 @@ process.on('SIGINT', async () => {
             } else {
                 console.log('Conexão com o banco de dados fechada.');
             }
+            // Remove o lock file apenas se este processo for o dono
+            try {
+                const pidInLock = fs.readFileSync(lockFilePath, 'utf-8');
+                if (pidInLock === process.pid.toString()) {
+                    fs.unlinkSync(lockFilePath);
+                    console.log('Arquivo de lock removido.');
+                }
+            } catch (e) { /* Ignora erros (arquivo pode não existir, etc.) */ }
             console.log('Processo encerrado.');
             process.exit(0);
         });
     }
-});
+};
+
+process.on('SIGINT', () => gracefulShutdown('SIGINT')); // Captura Ctrl+C
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM')); // Captura sinais de término (ex: do Docker, Koyeb)
